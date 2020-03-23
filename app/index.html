@@ -1,15 +1,281 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Documentos</title>
-  </head>
-  <body>
-    <div class="wrapper">
-      <header class="header">
-        <div class="container"> </div>
-      </header>
+<html lang="en"></html>
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Test</title>
+  <script>src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"</script>
+  <link rel="stylesheet" href="./css/style.min.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,400i,500,600,700,800&amp;display=swap" rel="stylesheet"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+  <header class="header" id="header">
+    <div class="container">
+      <div class="header__inner">
+        <div class="header__logo"><a href="" data-scroll="#intro"><img src="./images/header/logo.png" alt=""/></a></div>
+        <nav class="nav" id="nav"><a class="nav__link" href="#" data-scroll="#intro">Home</a><a class="nav__link" href="#" data-scroll="#service">Service</a><a class="nav__link" href="#" data-scroll="#extesion">Extesion</a><a class="nav__link" href="#" data-scroll="#feedback">Pricing</a><a class="nav__link" href="#" data-scroll="#contact">Help</a></nav>
+        <div class="header__nav__button"> <a class="nav__link nav__link--btn" href="">Sign up</a></div>
+        <button class="burger" id="navToggle" type="button"><a class="burger__item" href="#">Menu</a></button>
+      </div>
     </div>
-  </body>
-</html>
+  </header>
+  <div class="intro" id="intro">
+    <div class="container">
+      <div class="intro__inner">
+        <div class="intro__item">
+          <h1 class="intro__title">lorem Ipsum Dolor sit amet</h1>
+          <p class="intro__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamc</p>
+          <div class="intro__buttons"><a class="btn" href="" data-scroll="#features">Buy now</a><a class="btn btn--white" href="" data-scroll="#features">Try for free</a></div>
+        </div>
+        <div class="intro__item intro__item--video">
+          <div class="intro__video"><a class="intro__video__button" href="#"><img src="./images/header/play.png" alt=""/></a>
+            <p class="intro__video__text">Watch the video</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="features">
+    <div class="container">
+      <div class="features__header">
+        <h3 class="features__header__title">Easy & Useful</h3>
+        <h4 class="features__header__subtitle">Project Management Tool</h4>
+        <p class="features__header__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
+      </div>
+      <div class="features__inner">
+        <div class="features__item">
+          <div class="features__item__img"><img src="./images/features/1.png" alt=""/></div>
+          <h1 class="features__title">Title Goes Here</h1>
+          <p class="features__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="features__item">
+          <div class="features__item__img"><img src="./images/features/2.png" alt=""/></div>
+          <h1 class="features__title">Title Goes Here</h1>
+          <p class="features__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="features__item">
+          <div class="features__item__img"><img src="./images/features/3.png" alt=""/></div>
+          <h1 class="features__title">Title Goes Here</h1>
+          <p class="features__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </div><a class="btn btn--salad" href="">Get started</a>
+    </div>
+  </div>
+  <div class="stats" id="extesion">
+    <div class="stats__inner">
+      <div class="stats__item stats__item--salad">
+        <div class="stats__item__img"><img src="./images/stats/1.png" alt=""/></div>
+        <div class="stats__count">
+          <p class="stats__text">12000+ </p>
+          <p class="stats__text">Business</p>
+        </div>
+      </div>
+      <div class="stats__item stats__item--purple">
+        <div class="stats__item__img"><img src="./images/stats/2.png" alt=""/></div>
+        <div class="stats__count">
+          <p class="stats__text">60000+ </p>
+          <p class="stats__text">Downloads</p>
+        </div>
+      </div>
+      <div class="stats__item stats__item--violet">
+        <div class="stats__item__img"><img src="./images/stats/3.png" alt=""/></div>
+        <div class="stats__count">
+          <p class="stats__text">30000+     </p>
+          <p class="stats__text">Free Installs</p>
+        </div>
+      </div>
+      <div class="stats__item stats__item--pink">
+        <div class="stats__item__img"><img src="./images/stats/3.png" alt=""/></div>
+        <div class="stats__count">
+          <p class="stats__text">40000+   </p>
+          <p class="stats__text">Pro Users</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="services" id="service">
+    <div class="container">
+      <div class="services__header">
+        <h3 class="services__header__title">Services</h3>
+        <p class="services__header__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+      </div>
+      <div class="services__inner">
+        <div class="services__item">
+          <div class="services__list"> 
+            <div class="services__list__left"> <img class="services__list__img" src="./images/services/1.png" alt=""/>
+              <div class="services__list__title">Statistics</div>
+            </div>
+            <div class="services__list__right"> <img src="./images/services/arrow.png" alt=""/></div>
+          </div>
+          <div class="service__content">
+            <div class="services__content__img"></div><img class="services__content__img__photo" src="./images/services/rounded_rectangle_53_306.png" alt=""/>
+            <div class="service__content__text">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+              <p>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in</p>
+            </div>
+          </div>
+        </div>
+        <div class="services__item">
+          <div class="services__list"> 
+            <div class="services__list__left"> <img class="services__list__img" src="./images/services/2.png" alt=""/>
+              <div class="services__list__title">Inbox</div>
+            </div>
+            <div class="services__list__right"> <img src="./images/services/arrow.png" alt=""/></div>
+          </div>
+        </div>
+        <div class="services__item">
+          <div class="services__list"> 
+            <div class="services__list__left"> <img class="services__list__img" src="./images/services/3.png" alt=""/>
+              <div class="services__list__title">Team</div>
+            </div>
+            <div class="services__list__right"> <img src="./images/services/arrow.png" alt=""/></div>
+          </div>
+        </div>
+        <div class="services__item">
+          <div class="services__list"> 
+            <div class="services__list__left"> <img class="services__list__img" src="./images/services/4.png" alt=""/>
+              <div class="services__list__title">Settings</div>
+            </div>
+            <div class="services__list__right"> <img src="./images/services/arrow.png" alt=""/></div>
+          </div>
+        </div>
+        <div class="services__item">
+          <div class="services__list"> 
+            <div class="services__list__left"> <img class="services__list__img" src="./images/services/5.png" alt=""/>
+              <div class="services__list__title">Feed</div>
+            </div>
+            <div class="services_listr__right"> <img src="./images/services/arrow.png" alt=""/></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="feedback" id="feedback">
+    <div class="container">
+      <div class="feedback__inner">
+        <div class="feedback__descr">
+          <div class="feedback__descr__title">What our customers have to say about us.</div>
+          <div class="feedback__descr__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</div><a class="btn" href="">Get started</a>
+        </div>
+        <div class="feedback__clients">
+          <div class="feedback__clients__arrow"><img class="feedback__clients__arrow__up" src="./images/feedback/keyboard_arrow_up_563.png" alt=""/></div>
+          <div class="feedback__clients__item">
+            <div class="feedback__clients__photo"><img src="./images/feedback/1.png" alt=""/></div>
+            <div class="feedback__clients__text">
+              <p class="feedback__clients__text__name">John Doe   </p>
+              <p class="feedback__clients__text__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</p>
+            </div>
+          </div>
+          <div class="feedback__clients__item feedback__clients__item--last">
+            <div class="feedback__clients__photo"><img src="./images/feedback/2.png" alt=""/></div>
+            <div class="feedback__clients__text">
+              <p class="feedback__clients__text__name">Khaleesi  </p>
+              <p class="feedback__clients__text__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</p>
+            </div>
+          </div>
+          <div class="feedback__clients__arrow"><img class="feedback__clients__arrow__down" src="./images/feedback/keyboard_arrow_down_562.png" alt=""/></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="team">
+    <div class="container">
+      <div class="team__header">
+        <h3 class="team__header__title">Our Team</h3>
+        <p class="team__header__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+      </div>
+      <div class="team__photos">
+        <div class="team__photos__item"><img class="team__photos__item__img team__photos__item__img--small" src="./images/team/left.png" alt=""/></div>
+        <div class="team__photos__item"><img class="team__photos__item__img" src="./images/team/main.png" alt=""/></div>
+        <div class="team__photos__item"><img class="team__photos__item__img team__photos__item__img--small" src="./images/team/right.png" alt=""/></div>
+      </div>
+      <div class="team__content">
+        <div class="team__content__title">Sophie Turner</div>
+        <div class="team__content__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magnaLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</div>
+        <div class="team__content__social"> <a class="social__item" href="" target="_blank">
+            <svg class="social__icon">
+              <use xlink:href="#facebook"></use>
+            </svg></a><a class="social__item" href="" target="_blank">
+            <svg class="social__icon">
+              <use xlink:href="#twitter"></use>
+            </svg></a><a class="social__item" href="" target="_blank">
+            <svg class="social__icon">
+              <use xlink:href="#linkedin"></use>
+            </svg></a><a class="social__item" href="" target="_blank">
+            <svg class="social__icon">
+              <use xlink:href="#Capa_1"></use>
+            </svg></a></div>
+      </div>
+    </div>
+  </div>
+  <div class="contact" id="contact"> 
+    <div class="container"> 
+      <div class="contact__header">
+        <div class="contact__title">Contact Us</div>
+        <div class="contact__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</div>
+      </div>
+      <div class="contact__field">
+        <div class="contact__inner">
+          <div class="contact__wrapper">
+            <div class="contact__item">
+              <input class="info__item" type="text" placeholder="First Name"/>
+              <input class="info__item" type="text" placeholder="Last name"/>
+              <input class="info__item" type="text" placeholder="Email"/>
+              <input class="info__item" type="text" placeholder="Phone"/>
+            </div>
+            <textarea class="contact__item contact__item--feedback" name="comment" placeholder="Message"></textarea>
+            <div class="contact__button"><a class="btn btn--salad">Send</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__logo"><a href="" data-scroll="#intro"><img src="./images/header/logo.png" alt=""/></a></div>
+        <nav class="nav" id="nav"><a class="nav__link nav__link--footer" href="#" data-scroll="#header">Home</a><a class="nav__link nav__link--footer" href="#" data-scroll="#intro">Service</a><a class="nav__link nav__link--footer" href="#" data-scroll="#features">Extesion</a><a class="nav__link nav__link--footer" href="#" data-scroll="#extensions">Pricing</a><a class="nav__link nav__link--footer" href="#" data-scroll="#tutorials">Help</a></nav>
+      </div>
+      <div class="footer__info">
+        <div class="footer__info__nav"><a class="nav__link nav__link--end" href="#" data-scroll="#">Privacy Policy            </a><a class="nav__link nav__link--end" href="#" data-scroll="#">About Us</a><a class="nav__link nav__link--end" href="#" data-scroll="#">About Us</a></div>
+        <div class="footer__info__social"><a class="social__item" href="" target="_blank">
+            <svg class="social__icon social__icon--footer">
+              <use xlink:href="#facebook"></use>
+            </svg></a><a class="social__item" href="" target="_blank">
+            <svg class="social__icon social__icon--footer">
+              <use xlink:href="#twitter"></use>
+            </svg></a><a class="social__item" href="" target="_blank">
+            <svg class="social__icon social__icon--footer">
+              <use xlink:href="#linkedin"></use>
+            </svg></a><a class="social__item" href="" target="_blank">
+            <svg class="social__icon social__icon--footer">
+              <use xlink:href="#Capa_1"></use>
+            </svg></a></div>
+      </div>
+    </div>
+  </footer>
+</body>
+<svg style="display: none;">
+  <symbol id="facebook" viewBox="0 0 96.124 96.123">
+    <g>
+      <path d="M72.089,0.02L59.624,0C45.62,0,36.57,9.285,36.57,23.656v10.907H24.037c-1.083,0-1.96,0.878-1.96,1.961v15.803      c0,1.083,0.878,1.96,1.96,1.96h12.533v39.876c0,1.083,0.877,1.96,1.96,1.96h16.352c1.083,0,1.96-0.878,1.96-1.96V54.287h14.654      c1.083,0,1.96-0.877,1.96-1.96l0.006-15.803c0-0.52-0.207-1.018-0.574-1.386c-0.367-0.368-0.867-0.575-1.387-0.575H56.842v-9.246      c0-4.444,1.059-6.7,6.848-6.7l8.397-0.003c1.082,0,1.959-0.878,1.959-1.96V1.98C74.046,0.899,73.17,0.022,72.089,0.02z"></path>
+    </g>
+  </symbol>
+  <symbol id="twitter" viewBox="0 0 512 512">
+    <g>
+      <path d="M512,97.248c-19.04,8.352-39.328,13.888-60.48,16.576c21.76-12.992,38.368-33.408,46.176-58.016      c-20.288,12.096-42.688,20.64-66.56,25.408C411.872,60.704,384.416,48,354.464,48c-58.112,0-104.896,47.168-104.896,104.992      c0,8.32,0.704,16.32,2.432,23.936c-87.264-4.256-164.48-46.08-216.352-109.792c-9.056,15.712-14.368,33.696-14.368,53.056      c0,36.352,18.72,68.576,46.624,87.232c-16.864-0.32-33.408-5.216-47.424-12.928c0,0.32,0,0.736,0,1.152      c0,51.008,36.384,93.376,84.096,103.136c-8.544,2.336-17.856,3.456-27.52,3.456c-6.72,0-13.504-0.384-19.872-1.792      c13.6,41.568,52.192,72.128,98.08,73.12c-35.712,27.936-81.056,44.768-130.144,44.768c-8.608,0-16.864-0.384-25.12-1.44      C46.496,446.88,101.6,464,161.024,464c193.152,0,298.752-160,298.752-298.688c0-4.64-0.16-9.12-0.384-13.568      C480.224,136.96,497.728,118.496,512,97.248z"></path>
+    </g>
+  </symbol>
+  <symbol id="linkedin" viewBox="0 0 510 510">
+    <g>
+      <path d="M459,0H51C22.95,0,0,22.95,0,51v408c0,28.05,22.95,51,51,51h408c28.05,0,51-22.95,51-51V51C510,22.95,487.05,0,459,0z      M153,433.5H76.5V204H153V433.5z M114.75,160.65c-25.5,0-45.9-20.4-45.9-45.9s20.4-45.9,45.9-45.9s45.9,20.4,45.9,45.9      S140.25,160.65,114.75,160.65z M433.5,433.5H357V298.35c0-20.399-17.85-38.25-38.25-38.25s-38.25,17.851-38.25,38.25V433.5H204      V204h76.5v30.6c12.75-20.4,40.8-35.7,63.75-35.7c48.45,0,89.25,40.8,89.25,89.25V433.5z">    </path>
+    </g>
+  </symbol>
+  <symbol id="Capa_1" viewBox="0 0 512 512">
+    <g>
+      <path d="M256,0C115.04,0,0,115.05,0,256c0,140.96,115.05,256,256,256c140.96,0,256-115.05,256-256C512,115.04,396.95,0,256,0z   M429.64,111.51c31.96,38.34,51.47,87.39,52.31,140.89c-40.06-9.37-84.55-10-129.86-1.74c-11.79,2.15-23.58,4.88-35.3,8.16  c-3.9-10.61-8.04-21.13-12.44-31.55c-4.49-10.63-9.23-21.08-14.19-31.38C344.15,175.27,402.65,144.57,429.64,111.51z M256,30  c58.82,0,112.45,22.59,152.7,59.54C393,110.95,348.26,142.12,276.48,169c-25.06-46.66-55.11-89.54-89.83-128.1  C208.51,33.83,231.82,30,256,30z M156.95,52.9c35.41,37.93,65.87,80.29,90.96,126.05c-74.68,24.17-150.29,34.03-212.46,27.66  C50.59,138.96,96.14,82.67,156.95,52.9z M30,256c0-6.64,0.31-13.21,0.87-19.7c13.72,1.45,28.03,2.18,42.82,2.18  c58.33,0,123.86-11.22,188.21-32.53c9.82,20.1,18.65,40.78,26.44,61.97c-25.09,9.02-49.51,20.49-72.44,34.14  c-56.22,33.47-97.35,76.53-114.41,118.71C57.52,379.51,30,320.91,30,256z M256,482c-48.29,0-93.09-15.23-129.86-41.14  c11.4-38.52,49.96-80.19,105.11-113.02c19.43-11.58,42.15-22.49,66.88-31.36c17.53,55.1,28.27,113.26,31.68,173.13  C306.67,477.63,281.84,482,256,482z M359.07,457.1c-4.16-58.32-15.02-115.1-32.45-169.64c48.6-13.36,102.58-17.84,153.77-4.56  C471.33,358.91,424.41,423.47,359.07,457.1z"></path>
+    </g>
+  </symbol>
+</svg>
+<script src="js/main.js"></script>
